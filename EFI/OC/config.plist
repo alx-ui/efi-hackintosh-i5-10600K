@@ -573,7 +573,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>0</integer>
+			<integer>15</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -590,7 +590,7 @@
 			<key>LogModules</key>
 			<string>*</string>
 			<key>SysReport</key>
-			<false/>
+			<true/>
 			<key>Target</key>
 			<integer>0</integer>
 		</dict>
@@ -1393,6 +1393,8 @@
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
+			<false/>
+			<key>ResizeUsePciRbIo</key>
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
