@@ -31,32 +31,23 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				oAqTU1RBUwE=
-				</data>
+				<data>oAqTU1RBUwE=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>OemTableId</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Replace</key>
-				<data>
-				oAqRCv8L//8=
-				</data>
+				<data>oAqRCv8L//8=</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>
-				RFNEVA==
-				</data>
+				<data>RFNEVA==</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -128,7 +119,17 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict/>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>AwDImw==</data>
+				<key># framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key># framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+			</dict>
+		</dict>
 		<key>Delete</key>
 		<dict/>
 	</dict>
@@ -466,11 +467,9 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data>
-			</data>
+			<data></data>
 			<key>Cpuid1Mask</key>
-			<data>
-			</data>
+			<data></data>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>MaxKernel</key>
@@ -614,11 +613,9 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
-			<data>
-			</data>
+			<data></data>
 			<key>PasswordSalt</key>
-			<data>
-			</data>
+			<data></data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
@@ -930,13 +927,9 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>UIScale</key>
-				<data>
-				AQ==
-				</data>
+				<data>AQ==</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -945,20 +938,16 @@
 				<key>revcpuname</key>
 				<string>Intel(R) Core(TM) i5-10600K CPU @ 4.10GHz</string>
 				<key>rtc-blacklist</key>
-				<data>
-				</data>
+				<data></data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
 				<string>alcid=1 watchdog=0 agdpmod=pikera dk.e1000=0</string>
 				<key>csr-active-config</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
-				<data>
-				</data>
+				<data></data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -1002,9 +991,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-7BA5B2D9E42DDD94</string>
 			<key>BoardRevision</key>
-			<data>
-			CQ==
-			</data>
+			<data>CQ==</data>
 			<key>DevicePathsSupported</key>
 			<integer>0</integer>
 			<key>FSBFrequency</key>
@@ -1014,15 +1001,11 @@
 			<key>PlatformName</key>
 			<string></string>
 			<key>SmcBranch</key>
-			<data>
-			</data>
+			<data></data>
 			<key>SmcPlatform</key>
-			<data>
-			ajEzNwAAAAA=
-			</data>
+			<data>ajEzNwAAAAA=</data>
 			<key>SmcRevision</key>
-			<data>
-			</data>
+			<data></data>
 			<key>StartupPowerEvents</key>
 			<integer>0</integer>
 			<key>SystemProductName</key>
@@ -1037,42 +1020,36 @@
 			<key>AdviseFeatures</key>
 			<true/>
 			<key>MLB</key>
-			<string>C02753500QXJG36UE</string>
+			<string>C02139300QXPHC1JA</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>1537</integer>
 			<key>ROM</key>
-			<data>
-			FmvlN4li
-			</data>
+			<data>POByT7Mq</data>
 			<key>SpoofVendor</key>
 			<false/>
 			<key>SystemMemoryStatus</key>
 			<string>Upgradable</string>
 			<key>SystemProductName</key>
-			<string>iMacPro1,1</string>
+			<string>iMac20,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VX0K7HX87</string>
+			<string>C02GGSZ9PN5T</string>
 			<key>SystemUUID</key>
-			<string>A7523AEC-5B44-4173-B158-5E9372025A9D</string>
+			<string>BC89F1A3-02B6-4249-B173-D42A78FEA033</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
 			<key>BID</key>
 			<string>Mac-7BA5B2D9E42DDD94</string>
 			<key>FirmwareFeatures</key>
-			<data>
-			</data>
+			<data></data>
 			<key>FirmwareFeaturesMask</key>
-			<data>
-			</data>
+			<data></data>
 			<key>MLB</key>
 			<string>C02753500QXJG36UE</string>
 			<key>ROM</key>
-			<data>
-			FmvlN4li
-			</data>
+			<data>FmvlN4li</data>
 			<key>SystemSerialNumber</key>
 			<string>C02VX0K7HX87</string>
 			<key>SystemUUID</key>
@@ -1111,18 +1088,15 @@
 			<key>ChassisVersion</key>
 			<string></string>
 			<key>FirmwareFeatures</key>
-			<data>
-			</data>
+			<data></data>
 			<key>FirmwareFeaturesMask</key>
-			<data>
-			</data>
+			<data></data>
 			<key>PlatformFeature</key>
 			<integer>0</integer>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>SmcVersion</key>
-			<data>
-			</data>
+			<data></data>
 			<key>SystemFamily</key>
 			<string></string>
 			<key>SystemManufacturer</key>
