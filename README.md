@@ -1,5 +1,5 @@
 
-# Hackintosh OpenCore macOS Ventura
+# Hackintosh OpenCore macOS Sonoma
 
 Pasta EFI para executar a versão mais recente do macOS Sonoma no Desktop usando o OpenCore como carregador de inicialização.
 
