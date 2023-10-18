@@ -1,13 +1,17 @@
 
 # Hackintosh OpenCore macOS Ventura
 
-Pasta EFI para executar a versão mais recente do macOS Ventura no Desktop usando o OpenCore como carregador de inicialização.
+Pasta EFI para executar a versão mais recente do macOS Sonoma no Desktop usando o OpenCore como carregador de inicialização.
 
 ## [Dortania's Guia de Instalação OpenCore](https://dortania.github.io/OpenCore-Install-Guide)
 
+## Inicialização | [BsxM1](https://github.com/blackosx/BsxM1)
+
+![NeoFecth](.github/preview_ui.jpg)
+
 ## Sobre o PC
 
-![NeoFecth](.github/neofetch.png)
+![NeoFecth](.github/neo_fetch.png)
 
 ### Hardware Original
 
@@ -49,5 +53,5 @@ Pasta EFI para executar a versão mais recente do macOS Ventura no Desktop usand
 
 ## Screenshot
 
-![Print 1](.github/screen1.png)
-![Print 2](.github/screen2.png)
+![Print 1](.github/screen_1.png)
+![Print 2](.github/screen_2.png)
