@@ -1034,6 +1034,8 @@
 				<integer>1</integer>
 				<key>revcpuname</key>
 				<string>Intel(R) Core(TM) i5-10600K CPU @ 4.10GHz</string>
+				<key>revpatch</key>
+				<string>sbvmm,cpuname</string>
 				<key>rtc-blacklist</key>
 				<data></data>
 			</dict>
@@ -1062,6 +1064,7 @@
 				<string>opencore-version</string>
 				<string>revcpu</string>
 				<string>revcpuname</string>
+				<string>revpatch</string>
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
